@@ -1,0 +1,11 @@
+apiVersion: kustomize.config.k8s.io/v1alpha1
+kind: Component
+
+images:
+- name: ghcr.io/ns-super-team/fpjp-ambulance-ufe
+  newName: ghcr.io/ns-super-team/fpjp-ambulance-ufe # {"$imagepolicy":  "wac-hospital:fpjp-ambulance-ufe:name"}
+  newTag: main # {"$imagepolicy": "wac-hospital:fpjp-ambulance-ufe:tag"}
+
+- name: milung/ufe-controller
+  newName: milung/ufe-controller # {"$imagepolicy":  "wac-hospital:ufe-controller:name"}
+  newTag: latest # {"$imagepolicy": "wac-hospital:ufe-controller:tag"}
