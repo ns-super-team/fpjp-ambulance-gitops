@@ -9,7 +9,7 @@ spec:
   navigation:
     - element: fpjp-app   # element, ktorý bude vložený na stránku
                                     # pri navigácii na zoznam čakajúcich
-      path: overview      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
+      path: fpjp-department      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
       title: Evidencia vybavenia nemocnice - fpjp     # názov mikro aplikácie
       details: Evidencia vybavenia nemocnice a ambulancií, s prehľadom umiestnenia a životnosti jednotlivých položiek
   preload: false                    # určuje, či má byť web komponent načítaný spolu s hlavnou stránkou
