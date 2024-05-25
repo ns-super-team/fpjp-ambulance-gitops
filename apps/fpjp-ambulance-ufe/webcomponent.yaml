@@ -9,6 +9,9 @@ spec:
   navigation:
     - element: fpjp-app   # element, ktorý bude vložený na stránku
                                     # pri navigácii na zoznam čakajúcich
+      atributes: 
+      - name: api-base
+        value: http://localhost:30081/api
       path: fpjp-department      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
       title: Evidencia vybavenia nemocnice - fpjp     # názov mikro aplikácie
       details: Evidencia vybavenia nemocnice a ambulancií, s prehľadom umiestnenia a životnosti jednotlivých položiek

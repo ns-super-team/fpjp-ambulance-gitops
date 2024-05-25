@@ -10,6 +10,11 @@ commonLabels:
 
 resources:
 - ../../../apps/fpjp-ambulance-ufe
+- ../../../apps/fpjp-ambulance-webapi
 
 components:
 - ../../../components/version-developers
+- https://github.com/ns-super-team/fpjp-ambulance-webapi//deployments/kustomize/components/mongodb
+
+patches:
+- path: patches/fpjp-ambulance-webapi.service.yaml
