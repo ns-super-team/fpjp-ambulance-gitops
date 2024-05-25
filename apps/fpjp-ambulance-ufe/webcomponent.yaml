@@ -9,7 +9,7 @@ spec:
   navigation:
     - element: fpjp-app   # element, ktorý bude vložený na stránku
                                     # pri navigácii na zoznam čakajúcich
-      atributes: 
+      attributes: 
       - name: api-base
         value: http://localhost:30081/api
       path: fpjp-department      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
