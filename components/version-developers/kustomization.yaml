@@ -3,7 +3,7 @@ kind: Component
 images:
 - name: ghcr.io/ns-super-team/fpjp-ambulance-ufe
   newName: ghcr.io/ns-super-team/fpjp-ambulance-ufe # {"$imagepolicy":  "wac-hospital:fpjp-ambulance-ufe:name"}
-  newTag: main.20240526.1044 # {"$imagepolicy": "wac-hospital:fpjp-ambulance-ufe:tag"}
+  newTag: main.20240526.1722 # {"$imagepolicy": "wac-hospital:fpjp-ambulance-ufe:tag"}
 - name: ghcr.io/ns-super-team/fpjp-ambulance-webapi
   newName: ghcr.io/ns-super-team/fpjp-ambulance-webapi # {"$imagepolicy":  "wac-hospital:fpjp-ambulance-webapi:name"}
   newTag: main.20240526.1720 # {"$imagepolicy": "wac-hospital:fpjp-ambulance-webapi:tag"}
