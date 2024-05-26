@@ -6,7 +6,7 @@ images:
   newTag: main.20240526.1044 # {"$imagepolicy": "wac-hospital:fpjp-ambulance-ufe:tag"}
 - name: ghcr.io/ns-super-team/fpjp-ambulance-webapi
   newName: ghcr.io/ns-super-team/fpjp-ambulance-webapi # {"$imagepolicy":  "wac-hospital:fpjp-ambulance-webapi:name"}
-  newTag: main.20240526.1154 # {"$imagepolicy": "wac-hospital:fpjp-ambulance-webapi:tag"}
+  newTag: main.20240526.1459 # {"$imagepolicy": "wac-hospital:fpjp-ambulance-webapi:tag"}
 - name: milung/ufe-controller
   newName: milung/ufe-controller # {"$imagepolicy":  "wac-hospital:ufe-controller:name"}
   newTag: 1.7.3 # {"$imagepolicy": "wac-hospital:ufe-controller:tag"}
