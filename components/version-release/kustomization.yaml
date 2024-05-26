@@ -3,7 +3,10 @@ kind: Component
 images:
 - name: ghcr.io/ns-super-team/fpjp-ambulance-ufe
   newName: ghcr.io/ns-super-team/fpjp-ambulance-ufe
-  newTag: 1.0.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+  newTag: 1.1.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+- name: ghcr.io/ns-super-team/fpjp-ambulance-webapi
+  newName: ghcr.io/ns-super-team/fpjp-ambulance-webapi
+  newTag: 1.1.0
 
 replacements:
  - targets:
